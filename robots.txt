@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://revanthp.github.io/sitemap.xml
