@@ -11,54 +11,22 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2025 20:59:00 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 12:29:18 -0700</lastBuildDate>
     <atom:link href="https://revanthp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Contrastive_learning</title>
-      <link>https://revanthp.github.io/posts/contrastive_learning/</link>
+      <title>Addressing non-determinism in LLM outputs</title>
+      <link>https://revanthp.github.io/posts/addressing-non-determinisim-in-llm-outputs/</link>
       <pubDate>Wed, 21 Aug 2024 20:12:25 -0500</pubDate>
-      <guid>https://revanthp.github.io/posts/contrastive_learning/</guid>
-      <description>&lt;p&gt;Notes on contrastive learning.&lt;/p&gt;
-&lt;h2 id=&#34;constrastive-learning-objectives&#34;&gt;Constrastive learning objectives&lt;/h2&gt;
-&lt;p&gt;list various loss functions and the intution behind it.&lt;/p&gt;
-&lt;h3 id=&#34;loss-functions&#34;&gt;loss functions&lt;/h3&gt;
-&lt;h2 id=&#34;vision-embeddings&#34;&gt;Vision embeddings&lt;/h2&gt;
-&lt;h3 id=&#34;simclr&#34;&gt;SimCLR&lt;/h3&gt;
-&lt;h3 id=&#34;moco-and-moco-v2&#34;&gt;MoCo and MoCo v2&lt;/h3&gt;
-&lt;h2 id=&#34;sentence-embeddings&#34;&gt;Sentence embeddings&lt;/h2&gt;
-&lt;h3 id=&#34;bert&#34;&gt;BERT&lt;/h3&gt;</description>
-    </item>
-    <item>
-      <title>My Second File</title>
-      <link>https://revanthp.github.io/posts/my-second-file/</link>
-      <pubDate>Wed, 21 Aug 2024 11:43:35 -0500</pubDate>
-      <guid>https://revanthp.github.io/posts/my-second-file/</guid>
-      <description>&lt;h2 id=&#34;section-1&#34;&gt;section 1&lt;/h2&gt;
-&lt;p&gt;some content&lt;/p&gt;
-&lt;h2 id=&#34;section-2&#34;&gt;section 2&lt;/h2&gt;
-&lt;p&gt;some content&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First File</title>
-      <link>https://revanthp.github.io/posts/my-first-file/</link>
-      <pubDate>Wed, 21 Aug 2024 11:43:26 -0500</pubDate>
-      <guid>https://revanthp.github.io/posts/my-first-file/</guid>
-      <description>&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_section_1&#34;&gt;Section 1&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;some content&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;sect1&#34;&gt;
-&lt;h2 id=&#34;_section_2&#34;&gt;Section 2&lt;/h2&gt;
-&lt;div class=&#34;sectionbody&#34;&gt;
-&lt;div class=&#34;paragraph&#34;&gt;
-&lt;p&gt;some content&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+      <guid>https://revanthp.github.io/posts/addressing-non-determinisim-in-llm-outputs/</guid>
+      <description>&lt;p&gt;Large Language Models (LLMs) provide different outputs for the same input despite setting temperature as zero - which makes sampling deterministic eliminating variance in output. This has been attributed to two main sources:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;floating point arithmetic, and&lt;/li&gt;
+&lt;li&gt;Parallelism in GPU.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Together they tend to make floating point arithmetic non-associative.&lt;/p&gt;
+$$
+a + (b + c) \neq (a + b) + c
+$$&lt;p&gt;We can think of this as GPU cores in parallel do computation, which results in nondeterministic sequence of values. And when we do floating point math on these, it results in different values.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
