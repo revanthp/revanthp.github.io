@@ -1,19 +1,33 @@
 {
-  "name": "Revanth's blog",
-  "short_name": "",
+  "name": "Revanth's Blog",
+  "short_name": "Revanth's Blog",
+  "description": "Revanth's personal blog about technology, programming, and more.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "theme_color": "#2e2e33",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["technology", "programming", "blog"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
       "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
       "type": "image/png"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
-  "display": "standalone"
+  ]
 }
