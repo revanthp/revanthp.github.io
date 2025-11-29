@@ -2,27 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://revanthp.github.io/posts/designing-fingerprinting-systems/</loc>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://revanthp.github.io/posts/</loc>
-    <lastmod>2025-11-29T10:30:02-08:00</lastmod>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/</loc>
-    <lastmod>2025-11-29T10:30:02-08:00</lastmod>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/posts/addressing-non-determinisim-in-llm-outputs/</loc>
-    <lastmod>2025-11-29T10:30:02-08:00</lastmod>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/archives/</loc>
-    <lastmod>2025-11-29T10:30:02-08:00</lastmod>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/search/</loc>
-    <lastmod>2025-11-29T10:30:02-08:00</lastmod>
+    <lastmod>2025-11-29T10:32:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://revanthp.github.io/series/</loc>
