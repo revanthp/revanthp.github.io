@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Dec 2025 15:27:54 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 15:28:49 -0800</lastBuildDate>
     <atom:link href="https://revanthp.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Designing Fingerprinting Systems</title>
@@ -20,7 +20,7 @@
       <guid>https://revanthp.github.io/posts/designing-fingerprinting-systems/</guid>
       <description>&lt;p&gt;In online applications customer journey identification and conversion tracking are essential to grow any business. The customer journey starts with a customer reaching the landing page and browsing / engaging with the content before the customer makes a purchase/logs in. It is important to tie this anonymous behaviour with the existing customer behaviour to&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;personalize content like recommend products that are useful to the customer.&lt;/li&gt;
+&lt;li&gt;Personalize content like recommend products that are useful to the customer.&lt;/li&gt;
 &lt;li&gt;Understand if the landing page conversion to take an action like purchase are meaningful.&lt;/li&gt;
 &lt;li&gt;Identify and filter out bots from customer behavioural data.&lt;/li&gt;
 &lt;/ol&gt;
